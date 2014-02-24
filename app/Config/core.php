@@ -25,15 +25,21 @@
  *
  * Production Mode:
  * 	0: No error messages, errors, or warnings shown. Flash messages redirect.
+ * プロダクトモード
+ *      0: エラーメッセージなし
  *
  * Development Mode:
  * 	1: Errors and warnings shown, model caches refreshed, flash messages halted.
  * 	2: As in 1, but also with full debug messages and SQL output.
+ * デベロップモード
+ *      1: エラーと警告を表示、モデルキャッシュをリフレッシュ
+ *      2: 1の他に、デバッグメッセージと SQL を表示 
  *
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 2);
+        // デバッグレベル
+	Configure::write('debug', 1);
 
 /**
  * Configure the Error handler used to handle errors for your application. By default

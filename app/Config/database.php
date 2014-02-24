@@ -5,8 +5,8 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'masaki',
-		'password' => 'cpd0909',
+		'login' => 'root',
+		'password' => 'cola3101',
 		'database' => 'cakephp_prac_db',
 		'prefix' => '',
 		'encoding' => 'utf8'
